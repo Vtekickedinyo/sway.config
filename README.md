@@ -1,4 +1,4 @@
-This is a small section for screen shots on wayland utilizing grimshot, it uses super+shift+a w s to capture (a)selected area (w) active window & (s) screen
+This is a small section for screen shots on wayland utilizing grimshot, it uses super+shift+a w s to capture (a) selected area (w) active window & (s) screen
 
 For the example given it defaults to the directory: $(xdg-user-dir PICTURES)/screenshots
 
@@ -6,7 +6,8 @@ Screen shot location for my machine, I end up hardcoding the directory like /med
 
 The image format can be swapped with jpg, png or webp (possibly more)
 
-(Optional: I also suggest using zram + add the next line to fstab to create a RAMDISK for screen shots to reduce disk wear, create directory prior to fstab add) 
+(Optional: I also suggest using zram + add the next line to fstab to create a 1GB RAMDISK for screen shots to reduce disk wear, create directory prior to fstab add) 
+
 tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
 
 
