@@ -1,4 +1,4 @@
-This is a small section for screen shots on wayland utilizing grimshot, it uses super+shift+a w s to capture (a) selected area (w) active window & (s) screen
+This is a small section for screen shots on Sway utilizing grimshot, it uses super+shift+a w s to capture (a) selected area (w) active window & (s) screen
 
 For the example given it defaults to the directory: $(xdg-user-dir PICTURES)/screenshots
 
