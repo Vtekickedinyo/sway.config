@@ -1,4 +1,5 @@
 Various Sway configurations I have added to my machine.
+Sway+waybar+rofi+autotiling+grimshot+slurp
 
 ~ Tired of manually taking Screenshots from cli via grimshot? Add bindings to your config: use super+shift+a w s to capture (a) selected area (w) active window & (s) screen
  Follow [instructions](https://raw.githubusercontent.com/Vtekickedinyo/sway.config/refs/heads/main/sway.config) on sway config for screenshot keybinds.
