@@ -5,4 +5,4 @@ Type=Application
 Terminal=false
 Exec=/bin/foot nano  ~/.config/sway/config
 Name=sway config
-Icon=/usr/share/icons/sway_logo.jxl
+Icon=~/.local/share/icons/sway_logo.jxl
