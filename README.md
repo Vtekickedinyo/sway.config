@@ -1,9 +1,9 @@
 Various Sway configurations I have added to my machine.
 
 ~ Tired of manually taking Screenshots from cli via grimshot? We can add binding to your config: use super+shift+a w s to capture (a) selected area (w) active window & (s) screen
-~ Follow [instructions](https://raw.githubusercontent.com/Vtekickedinyo/sway.config/refs/heads/main/sway.config) for sway config for screenshot keybinds.
+ Follow [instructions](https://raw.githubusercontent.com/Vtekickedinyo/sway.config/refs/heads/main/sway.config) for sway config for screenshot keybinds.
 
 ~ Want to skip manually opening your config file?  Use foot as terminal + nano as editor?
-~ This is a shortcut that gracefully closes the window when you close the editor.
-~ Download & mv swayconf.desktop into ~/.local/share/applications/
-~ Download & sudo mv for sway_logo.jxl into /usr/share/icons/
+ This is a shortcut opened via drun (shift-d) named sway config that gracefully closes the window when you close the editor.
+ Download & mv swayconf.desktop into ~/.local/share/applications/
+ Download & sudo mv for sway_logo.jxl into /usr/share/icons/
