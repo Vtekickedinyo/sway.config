@@ -6,4 +6,4 @@ Various Sway configurations I have added to my machine.
 ~ Want to skip manually opening your config file?  Use foot as terminal + nano as editor?
  This shortcut is opened via drun (This machine uses rofi) named sway config that gracefully closes the window when you close the editor.
  Download & mv swayconf.desktop into ~/.local/share/applications/
- Download & sudo mv for sway_logo.jxl into /usr/share/icons/
+ Download & mv for sway_logo.jxl into mv to ~/.local/share/icons
