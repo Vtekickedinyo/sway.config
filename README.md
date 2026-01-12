@@ -1,4 +1,4 @@
-### Various ![](https://raw.githubusercontent.com/swaywm/sway/refs/heads/master/assets/Sway_Logo%2BText_Ver3.png) configurations I have added to my machine.
+### Various ![](https://raw.githubusercontent.com/swaywm/sway/refs/heads/master/assets/Sway_Logo%2BText_Ver3.png) configurations added to my machine.
 Sway+waybar+rofi+autotiling+slurp+grimshot+foot+nano
 
 ## Tired of manually taking screen shots from cli via grimshot? 
