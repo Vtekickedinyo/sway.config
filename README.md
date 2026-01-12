@@ -23,4 +23,4 @@ but btop in this case. Add in sway config Keybindings
     bindsym ctrl+alt+Escape exec foot btop
 ```
 Please consider donating to Sway, and whatever distro of choice of course! ;)
-> If you're thinking of a large donation, consider breaking it down into smaller monthly donations.  
+> If you're thinking of a large donation, consider breaking it down into smaller reoccurring  monthly donations.  
