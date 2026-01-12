@@ -8,9 +8,13 @@ Add bindings to your sway config: use super+shift+a w s to capture (a) selected 
 ## Want to skip manually opening your config file? 
 ### This shortcut is opened via drun named sway config that gracefully closes the window when you close the editor.
  ### Download & mv [swayconf.desktop](https://github.com/Vtekickedinyo/sway.config/raw/refs/heads/main/swayconf.desktop) into 
- > ~/.local/share/applications/
- ### Download & mv [sway_logo.jxl](https://github.com/Vtekickedinyo/sway.config/raw/refs/heads/main/sway_logo.jxl) into
- > ~/.local/share/icons/
+```
+~/.local/share/applications/
+```
+### Download & mv [sway_logo.jxl](https://github.com/Vtekickedinyo/sway.config/raw/refs/heads/main/sway_logo.jxl) into
+ ```
+~/.local/share/icons/
+```
 ## Want that Old-Win ctrl+alt+Escape shortcut to open taskman? 
 but btop in this case. Add in sway config Keybindings
  ###   
