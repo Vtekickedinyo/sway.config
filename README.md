@@ -9,4 +9,4 @@ Add bindings to your sway config: use super+shift+a w s to capture (a) selected 
 ### Do you use foot as terminal + nano as editor?
  This shortcut is opened via drun named sway config that gracefully closes the window when you close the editor.
  ### Download & mv [swayconf.desktop](https://github.com/Vtekickedinyo/sway.config/raw/refs/heads/main/swayconf.desktop) into ~/.local/share/applications/
- ### Download & mv [sway_logo.jxl](https://github.com/Vtekickedinyo/sway.config/raw/refs/heads/main/sway_logo.jxl) into ~/.local/share/icons/
+ ### Download & mv [sway_logo.jxl](https://github.com/Vtekickedinyo/sway.config/raw/refs/heads/main/sway_logo.jxl) into          ~/.local/share/icons/
