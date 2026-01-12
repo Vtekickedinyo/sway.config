@@ -16,7 +16,7 @@ Add bindings to your sway config: use super+shift+a w s to capture (a) selected 
 ~/.local/share/icons/
 ```
 ## Want that Old-Win ctrl+alt+Escape shortcut to open taskman? 
-but btop in this case. Add in sway config Keybindings 🪟💨
+btop in this case. Add in sway config Keybindings 🪟💨
  ###   
  ```
 # Start btop
