@@ -4,6 +4,6 @@ Various Sway configurations I have added to my machine.
  Follow [instructions](https://raw.githubusercontent.com/Vtekickedinyo/sway.config/refs/heads/main/sway.config) on sway config for screenshot keybinds.
 
 ~ Want to skip manually opening your config file?  Use foot as terminal + nano as editor?
- This is a shortcut opened via drun (shift-d) named sway config that gracefully closes the window when you close the editor.
+ This shortcut is opened via drun (This machine uses rofi) named sway config that gracefully closes the window when you close the editor.
  Download & mv swayconf.desktop into ~/.local/share/applications/
  Download & sudo mv for sway_logo.jxl into /usr/share/icons/
