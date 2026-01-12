@@ -11,7 +11,8 @@ Add bindings to your sway config: use super+shift+a w s to capture (a) selected 
  > ~/.local/share/applications/
  ### Download & mv [sway_logo.jxl](https://github.com/Vtekickedinyo/sway.config/raw/refs/heads/main/sway_logo.jxl) into
  > ~/.local/share/icons/
-### Want that Old-Win ctrl+alt+Escape shortcut to open taskman? but btop in this case. Add in config Keybindings
+## Want that Old-Win ctrl+alt+Escape shortcut to open taskman? 
+but btop in this case. Add in config Keybindings
  ###   
  ```
 # Start btop
