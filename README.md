@@ -1,6 +1,6 @@
 Various Sway configurations I have added to my machine.
 
-~ Tired of manually taking Screenshots from cli via grimshot? We can add binding to your config: use super+shift+a w s to capture (a) selected area (w) active window & (s) screen
+~ Tired of manually taking Screenshots from cli via grimshot? Add bindings to your config: use super+shift+a w s to capture (a) selected area (w) active window & (s) screen
  Follow [instructions](https://raw.githubusercontent.com/Vtekickedinyo/sway.config/refs/heads/main/sway.config) for sway config for screenshot keybinds.
 
 ~ Want to skip manually opening your config file?  Use foot as terminal + nano as editor?
