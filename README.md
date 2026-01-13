@@ -10,7 +10,7 @@
 ```
 mkdir $(xdg-user-dir PICTURES)/screenshots
 ```
-> ⭐Optional: I also suggest using [zram](https://wiki.debian.org/ZRam) + add [tmpfs](https://www.man7.org/linux/man-pages/man5/tmpfs.5.html) to fstab, create a 1GB RAMDISK for screen shots to reduce disk wear. Use the following command to create the target directory:
+> ⭐Optional: I also suggest using [zram](https://wiki.debian.org/ZRam) + add [tmpfs](https://www.man7.org/linux/man-pages/man5/tmpfs.5.html) to fstab, creating a 1GB RAMDISK for screen shots to reduce disk wear. Use the following command to create the target directory:
 ```
 sudo mkdir /media/"$USER"/tmpfs -p -m 755
 ```
