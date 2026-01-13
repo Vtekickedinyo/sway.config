@@ -1,7 +1,7 @@
 ### Various ![](https://raw.githubusercontent.com/swaywm/sway/refs/heads/master/assets/Sway_Logo%2BText_Ver3.png) configurations added to my machine.
 Sway+waybar+rofi+autotiling+slurp+grimshot+foot+nano 🖥️
 
-## Tired of manually taking screen shots from cli via grimshot? 
+## Tired of manually taking screen shots from cli via grimshot? 🫟
 Add bindings to your sway config: use super+shift+a w s to capture (a) selected area (w) active window & (s) screen
 
 
@@ -51,6 +51,6 @@ btop in this case. Add in sway config Keybindings 🪟💨
 # Start btop
     bindsym ctrl+alt+Escape exec foot btop
 ```
-Please consider donating to Sway, and whatever distro of choice of course! ;)
+❇️ Please consider donating to Sway, and whatever distro of choice of course! ;)
 > If you're thinking of a large donation, consider breaking it down into smaller reoccurring  monthly donations.  💫
-> Thank you for stopping by! 👋
+# 💠 Thank you for stopping by! 👋
