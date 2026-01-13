@@ -39,6 +39,19 @@ tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
 ```
 ◽Give Sway a config reload & screenshot keybinds should now function. 🖼️
 
+## Autostarting applications 👣
+I unfortunantly have no good way, only a crude swaymsg command to add to the sway config inside the Layout Stuff portion:
+```
+    # Start-Up applications per workspace 
+    exec swaymsg "workspace number 1; exec foot;"
+```
+> If you populate multiple workspaces with your autostart & want a specific workspace to be visible apon boot add to the end of the list of autostart commands:
+```
+    exec sway workspace number 1
+```
+🗨️ It's not a great way of doing things, if an application has long load times it is possible the application opens on the workspace that is currently selected. 
+I'll be back to touch more on this, maybe a better way of doing things exist? 💭
+
 ## Want to skip manually opening your config file? 
  ▫️This shortcut is opened via super-d named sway config that gracefully closes the window when you close the editor. This config 'super-d sway' brings up the shortcut. 🐧
  ### ◽Download & mv [swayconf.desktop](https://github.com/Vtekickedinyo/sway.config/raw/refs/heads/main/swayconf.desktop) into 
