@@ -28,7 +28,7 @@ tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
 
 ▫️The image format can be swapped with jpg, png or webp (possibly more, jpeg-xl jxl works.)
 
-◽Add the following section into your sway config, if using optional settings: tweak directory username to your own & insert into ~/.config/sway/config after layout section:
+### ◽Insert into ~/.config/sway/config after layout section:
 ```
 
 # Take screenshots:
