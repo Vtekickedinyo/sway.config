@@ -6,7 +6,7 @@
 
 
 ▫️For the example given it defaults to the directory: $(xdg-user-dir PICTURES)/screenshots
-### Run the following in terminal to make the directory.
+### Run the following in terminal to make the directory:
 ```
 mkdir $(xdg-user-dir PICTURES)/screenshots
 ```
@@ -14,7 +14,7 @@ mkdir $(xdg-user-dir PICTURES)/screenshots
 ```
 sudo mkdir /media/"$USER"/tmpfs -p -m 755
 ```
->◽Edit username to your own & add the following to the end of your fstab.
+>◽Edit username to your own & add the following to the end of your fstab:
 ```
 tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
 ```
