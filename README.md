@@ -2,7 +2,7 @@
 🔸Waybar+rofi+autotiling+slurp+grimshot+foot+nano 🖥️
 
 ## Tired of manually taking screen shots from cli via grimshot? 🫟
-▫️Add bindings to your sway config: use super+shift+a w s to capture (a) selected area (w) active window & (s) screen
+▫️Add bindings to your sway config: use super+shift+a w s to capture [a] selected area [w] active window & [s] screen
 
 
 ▫️For the example given it defaults to the directory: $(xdg-user-dir PICTURES)/screenshots
