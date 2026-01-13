@@ -10,12 +10,13 @@
 ```
 mkdir $(xdg-user-dir PICTURES)/screenshots
 ```
-> ⭐Optional: I also suggest using [zram](https://wiki.debian.org/ZRam) + add the next line to fstab to create a [tmpfs](https://www.man7.org/linux/man-pages/man5/tmpfs.5.html) 1GB RAMDISK for screen shots to reduce disk wear, create the target directory prior to fstab add.
-### ◽Keep in mind that the tmpfs is zeroed out every shutdown/restart.
-▫️My own machine runs a ~4GB tmpfs & all downloads target that first as well before being moved somewhere more perminant.
+> ⭐Optional: I also suggest using [zram](https://wiki.debian.org/ZRam) + add the next line to fstab to create a [tmpfs](https://www.man7.org/linux/man-pages/man5/tmpfs.5.html) 1GB RAMDISK for screen shots to reduce disk wear, create the target directory prior to fstab add & change username to your own.
 ```
 tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
 ```
+### ◽Keep in mind that the tmpfs is zeroed out every shutdown/restart.
+▫️My own machine runs a ~4GB tmpfs & all downloads target that first as well before being moved somewhere more perminant.
+
 
  ◽Edit the screenshots directory, should appear as:
  ``` set $screenshot_out /media/username/tmpfs/screenshot-$(date +"%Y%m%d-%H%M%S").webp ```
