@@ -3,7 +3,34 @@ Sway+waybar+rofi+autotiling+slurp+grimshot+foot+nano 🖥️
 
 ## Tired of manually taking screen shots from cli via grimshot? 
 Add bindings to your sway config: use super+shift+a w s to capture (a) selected area (w) active window & (s) screen
- follow [instructions](https://raw.githubusercontent.com/Vtekickedinyo/sway.config/refs/heads/main/sway.config) on sway config for screenshot keybinds. 🖼️
+
+
+For the example given it defaults to the directory: $(xdg-user-dir PICTURES)/screenshots
+### Run the following to make the directory.
+```
+mkdir $(xdg-user-dir PICTURES)/screenshots
+```
+> Optional: I also suggest using [zram](https://wiki.debian.org/ZRam) + add the next line to fstab to create a [tmpfs](https://www.man7.org/linux/man-pages/man5/tmpfs.5.html) 1GB RAMDISK for screen shots to reduce disk wear, create the target directory prior to fstab add. 
+```
+tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
+```
+
+ Edit the directory for screenshots like ``` /media/username/tmpfs/screenshot-$(date +"%Y%m%d-%H%M%S").webp ```
+
+ In sway config will look like: ``` set $screenshot_out /media/username/tmpfs/screenshot-$(date +"%Y%m%d-%H%M%S").webp ```
+
+ The image format can be swapped with jpg, png or webp (possibly more, jpeg-xl jxl works.)
+
+ Add the following section into your sway config, if using optional settings: tweak directory username to your own & insert into ~/.config/sway/config after layout section:
+
+```
+# Take screenshots:
+    set $screenshot_out $(xdg-user-dir PICTURES)/screenshots/screenshot-$(date +"%Y%m%d-%H%M%S").webp
+    bindsym $mod+Shift+s exec grimshot save screen $screenshot_out
+    bindsym $mod+Shift+w exec grimshot save active $screenshot_out
+    bindsym $mod+Shift+a exec grimshot save area $screenshot_out
+```
+Give Sway a config reload & screenshot keybinds should now function. 🖼️
 
 ## Want to skip manually opening your config file? 
  This shortcut is opened via super-d named sway config that gracefully closes the window when you close the editor. This config 'super-d sway' brings up the shortcut. 🐧
