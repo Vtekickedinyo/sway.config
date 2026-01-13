@@ -6,7 +6,7 @@ Add bindings to your sway config: use super+shift+a w s to capture (a) selected 
  follow [instructions](https://raw.githubusercontent.com/Vtekickedinyo/sway.config/refs/heads/main/sway.config) on sway config for screenshot keybinds. 🖼️
 
 ## Want to skip manually opening your config file? 
- This shortcut is opened via super-d named sway config that gracefully closes the window when you close the editor. On this config 'super-d sway' brings up the shortcut. 🗔
+ This shortcut is opened via super-d named sway config that gracefully closes the window when you close the editor. On this config 'super-d sway' brings up the shortcut. 🐧
  ### Download & mv [swayconf.desktop](https://github.com/Vtekickedinyo/sway.config/raw/refs/heads/main/swayconf.desktop) into 
 ```
 ~/.local/share/applications/
