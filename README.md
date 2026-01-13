@@ -43,7 +43,7 @@ tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
 I unfortunantly have no good way, only a crude swaymsg command to add to the sway config inside the Layout Stuff portion:
 ```
     # Start-Up applications per workspace 
-    exec swaymsg "workspace number 1; exec foot;"
+    exec swaymsg "workspace number 1; exec foot btop;"
 ```
 > If you populate multiple workspaces with your autostart & want a specific workspace to be visible apon boot add to the end of the list of autostart commands:
 ```
