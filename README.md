@@ -57,6 +57,7 @@ tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
     bindsym ctrl+alt+Escape exec foot btop
 ```
 ◽ Sway config reload, the shortcut should be up & running. 👟
+
 ❇️ Please consider donating to Sway, and whatever distro of choice of course! ;)
 > ▫️If you're thinking of a large donation, consider breaking it down into smaller reoccurring  monthly donations.  💫
 # 👋 Thank you 4 stopping by! 
