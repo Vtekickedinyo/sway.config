@@ -10,7 +10,11 @@
 ```
 mkdir $(xdg-user-dir PICTURES)/screenshots
 ```
-> ⭐Optional: I also suggest using [zram](https://wiki.debian.org/ZRam) + add the next line to fstab to create a [tmpfs](https://www.man7.org/linux/man-pages/man5/tmpfs.5.html) 1GB RAMDISK for screen shots to reduce disk wear, create the target directory prior to fstab add & change username to your own.
+> ⭐Optional: I also suggest using [zram](https://wiki.debian.org/ZRam) + add [tmpfs](https://www.man7.org/linux/man-pages/man5/tmpfs.5.html) to fstab, create a 1GB RAMDISK for screen shots to reduce disk wear. Use the following command to create the target directory:
+```
+sudo mkdir /media/"$USER"/tmpfs -p -m 755
+```
+>Add the following to the end of your fstab
 ```
 tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
 ```
