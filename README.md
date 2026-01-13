@@ -10,20 +10,22 @@ For the example given it defaults to the directory: $(xdg-user-dir PICTURES)/scr
 ```
 mkdir $(xdg-user-dir PICTURES)/screenshots
 ```
-> Optional: I also suggest using [zram](https://wiki.debian.org/ZRam) + add the next line to fstab to create a [tmpfs](https://www.man7.org/linux/man-pages/man5/tmpfs.5.html) 1GB RAMDISK for screen shots to reduce disk wear, create the target directory prior to fstab add. 
+> ⭐Optional: I also suggest using [zram](https://wiki.debian.org/ZRam) + add the next line to fstab to create a [tmpfs](https://www.man7.org/linux/man-pages/man5/tmpfs.5.html) 1GB RAMDISK for screen shots to reduce disk wear, create the target directory prior to fstab add.
+### Keep in mind that the tmpfs is zeroed out every shutdown/restart.
+My own machine runs a ~4GB tmpfs & all downloads target that first as well before being moved somewhere more perminant.
 ```
 tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
 ```
 
- Edit the directory for screenshots like ``` /media/username/tmpfs/screenshot-$(date +"%Y%m%d-%H%M%S").webp ```
-
- In sway config will look like: ``` set $screenshot_out /media/username/tmpfs/screenshot-$(date +"%Y%m%d-%H%M%S").webp ```
+ Edit the screenshots directory, should appear as:
+ ``` set $screenshot_out /media/username/tmpfs/screenshot-$(date +"%Y%m%d-%H%M%S").webp ```
+> ⭐End of optional section.
 
  The image format can be swapped with jpg, png or webp (possibly more, jpeg-xl jxl works.)
 
  Add the following section into your sway config, if using optional settings: tweak directory username to your own & insert into ~/.config/sway/config after layout section:
-
 ```
+
 # Take screenshots:
     set $screenshot_out $(xdg-user-dir PICTURES)/screenshots/screenshot-$(date +"%Y%m%d-%H%M%S").webp
     bindsym $mod+Shift+s exec grimshot save screen $screenshot_out
