@@ -40,7 +40,7 @@ tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
 ◽Give Sway a config reload & screenshot keybinds should now function. 🖼️
 
 ## Autostarting applications 👣
-I unfortunantly have no good way, only a crude swaymsg command to add to the sway config inside the Layout Stuff portion:
+I unfortunantly have no good way... Only a crude swaymsg command, add to the sway config inside the Layout Stuff portion:
 ```
     # Start-Up applications per workspace 
     exec swaymsg "workspace number 1; exec foot btop;"
