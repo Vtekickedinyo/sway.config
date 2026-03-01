@@ -5,7 +5,7 @@
 ▫️Add bindings to your sway config: use super+shift+a w s to capture [a] selected area [w] active window & [s] entire screen
 
 
-▫️The main directory for screen shots can be placed within a tmpfs plus zram to reduce wear on your disk which I have left instruction within optional section & should now skip to that [step](https://github.com/Vtekickedinyo/sway.config/edit/main/README.md#zram_tmpfs). 👟
+▫️The main directory for screen shots can be placed within a tmpfs plus zram to reduce wear on your disk which I have left instruction within optional section & should now skip to that [step](https://github.com/Vtekickedinyo/sway.config#zram_tmpfs). 👟
 Otherwise:
 
 ▫️The default creates the following directory: $(xdg-user-dir PICTURES)/screenshots
