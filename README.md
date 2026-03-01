@@ -4,6 +4,7 @@
 ## Fatigued of manually taking screen shots through cli via grimshot? 🫟
 ▫️Add bindings to your sway config: use super+shift+a w s to capture [a] selected area [w] active window & [s] entire screen
 
+▫️The image format can be swapped with jpg, jxl, png or webp.
 
 ▫️The main directory for screen shots can be placed within a tmpfs plus zram to reduce wear on your disk which I have left instruction within optional section & should now skip to that [step](https://github.com/Vtekickedinyo/sway.config#zram_tmpfs). 👟
 Otherwise:
@@ -49,8 +50,6 @@ tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
     bindsym $mod+Shift+a exec grimshot save area $screenshot_out
 ```
 ### ⭐End of optional section.
-
-▫️The image format can be swapped with jpg, png or webp (possibly more, jpeg-xl jxl works.)
 
 ◽Give Sway a config reload with ctr-shift-c & screenshot keybinds should now function. 🖼️
 
