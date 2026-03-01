@@ -40,7 +40,7 @@ tmpfs /media/username/tmpfs tmpfs defaults,size=1G 0 0
 ### ◽Keep in mind that the tmpfs is zeroed out every shutdown/restart.
 💭 My own machine runs a ~4GB tmpfs & all downloads target that first as well prior to being moved somewhere more perminant.
 
- ◽Edit the set $screenshot_out directory path name that's named 'username' to your own & insert into ~/.config/sway/config after layout section:
+ ◽Edit the set $screenshot_out directory path that's named 'username' to your own & insert into ~/.config/sway/config after layout section:
 ```
 
 # Take screenshots:
