@@ -6,7 +6,7 @@
 
 ▫️The image format can be swapped with jpg, jxl, png or webp.
 
-▫️The main directory for screen shots can be placed within a tmpfs plus zram to reduce wear on your disk which I have left instruction within optional section & should now skip to that [step](https://github.com/Vtekickedinyo/sway.config#zram_tmpfs). 👟
+▫️The main directory for screen shots can be placed within a tmpfs plus zram to reduce wear on your disk which I have left instruction within an optional section & should now skip to that [step](https://github.com/Vtekickedinyo/sway.config#zram_tmpfs). 👟
 Otherwise:
 
 ▫️The default creates the following directory: $(xdg-user-dir PICTURES)/screenshots
