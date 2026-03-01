@@ -11,7 +11,7 @@ Otherwise:
 
 ▫️The default creates the following directory: $(xdg-user-dir PICTURES)/screenshots
 
-### Run the following in terminal to make the directory:
+### ◽Run the following in terminal to make the directory:
 ```
 mkdir $(xdg-user-dir PICTURES)/screenshots
 ```
