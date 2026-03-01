@@ -1,5 +1,5 @@
 ### Various ![](https://raw.githubusercontent.com/swaywm/sway/refs/heads/master/assets/Sway_Logo%2BText_Ver3.png) configurations added to my machine.
-🔸Waybar+rofi+autotiling+slurp+grimshot+foot+nano 🖥️
+🔸Installed: Waybar+rofi+autotiling+slurp+grimshot+foot+nano 🖥️
 
 ## Fatigued of manually taking screen shots through cli via grimshot? 🫟
 ▫️Add bindings to your sway config: use super+shift+a w s to capture [a] selected area [w] active window & [s] entire screen
