@@ -5,7 +5,7 @@
 ▫️Add bindings to your sway config: use super+shift+a w s to capture [a] selected area [w] active window & [s] entire screen
 
 
-▫️The main directory for screen shots can be placed within a tmpfs plus zram to reduce wear on your disk which I have left instruction within optional section & should now skip to that [step](https://github.com/Vtekickedinyo/sway.config#optional-i-suggest-using-zram--add-tmpfs-to-fstab-creating-a-1gb-ramdisk-for-screen-shots-to-reduce-disk-wear-use-the-following-command-to-create-the-target-directory). 👟
+▫️The main directory for screen shots can be placed within a tmpfs plus zram to reduce wear on your disk which I have left instruction within optional section & should now skip to that [step](https://github.com/Vtekickedinyo/sway.config/edit/main/README.md#zram_tmpfs). 👟
 Otherwise:
 
 ▫️The default creates the following directory: $(xdg-user-dir PICTURES)/screenshots
@@ -23,7 +23,7 @@ mkdir $(xdg-user-dir PICTURES)/screenshots
     bindsym $mod+Shift+w exec grimshot save active $screenshot_out
     bindsym $mod+Shift+a exec grimshot save area $screenshot_out
 ```
-### ◽◽◽
+### ZRAM_TMPFS
 
 ⭐Optional: I suggest using [zram](https://wiki.debian.org/ZRam) + add [tmpfs](https://www.man7.org/linux/man-pages/man5/tmpfs.5.html) to fstab, creating a 1GB RAMDISK for screen shots to reduce disk wear. Use the following command to create the target directory:
 ```
