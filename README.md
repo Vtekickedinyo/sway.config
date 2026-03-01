@@ -23,8 +23,9 @@ mkdir $(xdg-user-dir PICTURES)/screenshots
     bindsym $mod+Shift+w exec grimshot save active $screenshot_out
     bindsym $mod+Shift+a exec grimshot save area $screenshot_out
 ```
+### ◽◽◽
 
-### ⭐Optional: I suggest using [zram](https://wiki.debian.org/ZRam) + add [tmpfs](https://www.man7.org/linux/man-pages/man5/tmpfs.5.html) to fstab, creating a 1GB RAMDISK for screen shots to reduce disk wear. Use the following command to create the target directory:
+⭐Optional: I suggest using [zram](https://wiki.debian.org/ZRam) + add [tmpfs](https://www.man7.org/linux/man-pages/man5/tmpfs.5.html) to fstab, creating a 1GB RAMDISK for screen shots to reduce disk wear. Use the following command to create the target directory:
 ```
 sudo mkdir /media/"$USER"/tmpfs -p -m 755
 ```
